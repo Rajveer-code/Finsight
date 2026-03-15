@@ -1,0 +1,16 @@
+@"
+venv/
+hf_deploy/
+data/raw/
+data/processed/
+experiments/
+*.bin
+*.pt
+*.pth
+__pycache__/
+*.pyc
+.env
+chroma_db/
+*.egg-info/
+.DS_Store
+"@ | Out-File -Encoding utf8 .gitignore
