@@ -8,7 +8,7 @@
 
 **An end-to-end machine learning system extracting alpha signals from S&P 500 earnings call transcripts.**
 
-[**🖥️ Interactive Dashboard**](https://finsight-web-rust.vercel.app) • [**📊 Streamlit Demo**](https://huggingface.co/spaces/Rajveer234/finsight) • [**📄 Technical Report**](report/FinSight_Technical_Report.docx) • [**📈 Results**](#results)
+[**🖥️ Web Experience**](https://finsight-web-rust.vercel.app) • [**📊 Streamlit Demo**](https://huggingface.co/spaces/Rajveer234/finsight) • [**📄 Technical Report**](report/FinSight_Technical_Report.docx) • [**📈 Results**](#results)
 
 </div>
 
@@ -161,9 +161,9 @@ FinSight processes **14,584 earnings transcripts** across **601 S&P 500 companie
 | Vector DB | ChromaDB |
 | ML Models | XGBoost, LightGBM, PyTorch LSTM |
 | Interpretability | SHAP |
-| Dashboard (v2) | Next.js 14, TypeScript, Tailwind, Recharts, Framer Motion |
-| Dashboard (v1) | Streamlit + Plotly |
-| Deployment | Vercel (Next.js) + Hugging Face Spaces (Streamlit) |
+| Web experience | Next.js 16, TypeScript, Three.js / React Three Fiber, Tailwind, Framer Motion |
+| Streamlit demo | Streamlit + Plotly |
+| Deployment | Vercel (web) + Hugging Face Spaces (Streamlit) |
 | GPU | NVIDIA RTX 4060 Laptop (CUDA 11.8) |
 
 ---
@@ -200,13 +200,18 @@ finsight/
 │   │   └── sector_analysis.py       # GICS sector-level IC analysis
 │   │
 │   └── dashboard/
-│       └── app.py                   # Streamlit dashboard (v1)
+│       └── app.py                   # Streamlit demo
 │
+├── export_field.py                  # Export signal-field JSON for the web experience
 ├── experiments/                     # Model results, SHAP, plots
 ├── report/
 │   └── FinSight_Technical_Report.docx
 └── requirements.txt
 ```
+
+The interactive web experience ("The Descent") lives in a separate repository:
+[**finsight-web**](https://github.com/Rajveer-code/finsight-web) — a scroll-driven
+research monograph built on Next.js + Three.js.
 
 ---
 
