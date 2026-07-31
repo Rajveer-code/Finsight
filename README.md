@@ -8,7 +8,7 @@
 
 **An end-to-end machine learning system extracting alpha signals from S&P 500 earnings call transcripts.**
 
-[**🖥️ Web Experience**](https://finsight-web-rust.vercel.app) • [**📊 Streamlit Demo**](https://huggingface.co/spaces/Rajveer234/finsight) • [**📄 Technical Report**](report/FinSight_Technical_Report.docx) • [**📈 Results**](#results)
+[**🖥️ Web Experience**](https://finsight-web-rust.vercel.app) • [**📊 Streamlit Demo**](https://huggingface.co/spaces/Rajveer-code/FinSight) • [**📈 Results**](#results)
 
 </div>
 
@@ -316,6 +316,6 @@ Portfolio project for MSc Data Science application (ETH Zurich 2026).
 
 **Interactive Dashboard:** [finsight-web-rust.vercel.app](https://finsight-web-rust.vercel.app)
 
-**Streamlit Demo:** [huggingface.co/spaces/Rajveer234/finsight](https://huggingface.co/spaces/Rajveer234/finsight)
+**Streamlit Demo:** [huggingface.co/spaces/Rajveer-code/FinSight](https://huggingface.co/spaces/Rajveer-code/FinSight)
 
 </div>
